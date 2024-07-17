@@ -12,19 +12,19 @@ import axios from 'axios';
 
 const Home = () => {
   // const [data, setData] = useState<any>()
-    const [datas, setDatas] = useState<any>()
+    const [datas, setDatas] = useState<any>('yo')
     const [error, setError] = useState<any>()
 
-  useEffect(() => {
-     axios.get('https://ritglobalacademy.com/api/ads/easd3e232q').then((response: any) => {
-        setDatas(response)
-        const parsedDB = JSON.parse(response)
-        console.log(parsedDB)
-    }).catch((err) => {
-        console.log(err)
-        setError(err)
-    })
-  })
+  // useEffect(() => {
+  //    axios.get('https://ritglobalacademy.com/api/ads/easd3e232q').then((response: any) => {
+  //       setDatas(response)
+  //       const parsedDB = JSON.parse(response)
+  //       console.log(parsedDB)
+  //   }).catch((err) => {
+  //       console.log(err)
+  //       setError(err)
+  //   })
+  // })
 
   return (
     <div className='Home'>

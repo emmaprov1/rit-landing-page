@@ -8,14 +8,30 @@
     // Header 
     .intro-header {
         padding-top: 80px;
-        font-size: 1.6rem;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-style: normal;
         letter-spacing: .1px;
-        font-weight: 700;
+        
     }
-
+    
+        @media (min-width: 768px) {
+            .intro-header {
+                font-size: 1.5rem;
+            }
+        }
+    
     .future-of-eBIKe {
-        font-size: 3rem;
-        font-weight: 700;
+        font-size: 2.8rem;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-style: normal;
+    }
+    @media (min-width: 768px) {
+        .future-of-eBIKe {
+            font-size: 3.5rem;
+        }
     }
 
 

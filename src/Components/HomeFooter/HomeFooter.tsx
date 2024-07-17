@@ -3,10 +3,10 @@ import './HomeFooter.scss';
 
 const HomeFooter = () => {
   return (
-    <div className='HomeFooter text-center'>
-        <div className="inner-footer py-4 d-flex align-items-center">
-            <div className="mx-auto">
-                <h3 className="h3">BUY YOUR eBIKe TODAY</h3>
+    <div className='HomeFooter text-center px-0 w-100'>
+        <div className="inner-footer py-4 d-flex align-items-center ">
+            <div className="mx-auto container">
+                <h3 className="h3 pb-3">BUY YOUR eBIKe TODAY</h3>
                 <h1 className="h1">Get your eBIKe and Get Going</h1>
                 <div className="btn-container mt-4">
                   <button className="btn rounded-pill p-3 mx-auto">BUY NOW $1,850</button>

@@ -1,36 +1,52 @@
 .side-header {
-    margin-top: 100px;
+    margin-top: 60px;
     .text-column {
     font-size: 1.7rem;
     
     .h1 {
-    font-weight: 700;
-    line-height: 1;
+        font-weight: bold;
+        font-style: normal;
+        line-height: 1.125;
+        font-size: 2rem;
+        color: #000;
     }
 
     .stars-container {
-        .stars {
+        font-size: .875rem;
+            .stars {
             color: #ecbd23;
-            font-size: 1rem;
         }
         .review-link {
             color: #000;
-            font-size: 1rem;
             font-weight: normal;            
+        }
+        @media (min-width: 768px) {
+            p {
+                font-size: 1rem;
+            }
         }
     }
     .text-descr {
-        font-size: 1.1rem;
+        font-size: 1rem;
         color: #000;
         font-weight: normal;
+        font-style: normal;
+        line-height: 1.375;
     }
     .btn-container {
         .btn {
             background-color: #2953cc;
-            color: #ffffff;
+            color: rgba(255, 255, 255, 1);
             font-size: 1rem;
-            font-weight: 700;
+            font-weight: bold;
+            min-width: 96px;
+            padding: 14px 24px;
         }
     }
  }
+ @media (min-width: 768px) {
+    .h1 {
+        font-size: 2.5rem;
+    }
+}
 }
