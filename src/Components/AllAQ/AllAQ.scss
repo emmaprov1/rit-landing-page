@@ -1,0 +1,27 @@
+.AllAQ {
+    background-color: #2953cc;
+    color: #ffffff;
+    margin-top: 100px;
+    .h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .row {
+        .text-cont {
+            .heading {
+                font-size: 1.3rem;
+                font-weight: 700;
+            }
+            .texts {
+                border-bottom: dotted 1px;
+            }
+        }
+        .img-cont {
+            height: 300px;
+            img {
+                object-fit: cover;
+                border-radius: 20px;
+            }
+        }
+    }
+}

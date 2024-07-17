@@ -1,0 +1,21 @@
+.HomeRidersReview {
+    margin-top: 100px;
+    .h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .stars-container {
+        .stars {
+            color: #ecbd23;
+            font-size: 1rem;
+        }
+    }
+    .texts {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .name {
+        font-size: 1rem;
+        font-weight: normal;
+    }
+}

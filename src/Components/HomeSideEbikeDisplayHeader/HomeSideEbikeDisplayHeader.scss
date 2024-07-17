@@ -1,0 +1,36 @@
+.side-header {
+    margin-top: 100px;
+    .text-column {
+    font-size: 1.7rem;
+    
+    .h1 {
+    font-weight: 700;
+    line-height: 1;
+    }
+
+    .stars-container {
+        .stars {
+            color: #ecbd23;
+            font-size: 1rem;
+        }
+        .review-link {
+            color: #000;
+            font-size: 1rem;
+            font-weight: normal;            
+        }
+    }
+    .text-descr {
+        font-size: 1.1rem;
+        color: #000;
+        font-weight: normal;
+    }
+    .btn-container {
+        .btn {
+            background-color: #2953cc;
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+    }
+ }
+}
