@@ -2,8 +2,8 @@ import React from 'react';
 import './HomeHeader.scss'
 
 const HomeHeader = () => {
-  const context: any = sessionStorage.getItem('contexts');
-  const stringTexts = JSON.parse(context)
+  // const context: any = sessionStorage.getItem('contexts');
+  // const stringTexts = JSON.parse(context)
 
   return (
     <div className='Header container'>

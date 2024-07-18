@@ -7,8 +7,6 @@ import HomeRidersReview from '../../Components/HomeRidersReview/HomeRidersReview
 import AllAQ from '../../Components/AllAQ/AllAQ';
 import HomeFooter from '../../Components/HomeFooter/HomeFooter';
 // import ConfigDB from '../../Service/ConfigDB';
-import axios from 'axios';
-
 
 const Home = () => {
   // const [data, setData] = useState<any>()

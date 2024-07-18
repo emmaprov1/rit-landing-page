@@ -1,4 +1,3 @@
-import e_bike from '../../imgs/ebike001.png';
 import './HomeSideEbikeDisplayHeader.scss';
 import React from 'react'
 
@@ -27,7 +26,7 @@ const HomeSideEbikeDisplayHeader = () => {
             <span className="stars pe-1">★</span>
             <span className="stars pe-1">★</span>
             <span className="review-link-container ps-2">
-                <a href="#" className='review-link'>Read Reviews</a>
+                <a href="/#" className='review-link'>Read Reviews</a>
             </span>
           </div>
           <div className="text-descr">
