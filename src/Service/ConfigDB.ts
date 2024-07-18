@@ -1,17 +1,16 @@
 // import axios from "axios";
-// import React, {useState} from "react";
+import React, {useState} from "react";
 
 
 const ConfigDB = async () => {
-    // const [data, setData] = useState<any>()
-    // const [error, setError] = useState<any>()
-    // await axios.get('https://ritglobalacademy.com/api/ads/easd3e232q').then((response: any) => {
-    //     setData(response)
-    // }).catch((err) => {
-    //     console.log(err)
-    //     setError(err)
-    // })
-//   return data ? data : error;
+    const [datas, setDatas] = useState<any>();
+    
+    await fetch('https://ritglobalacademy.com/api/ads/easd3e232q')
+    .then(response => response.json())
+    .then(data => setDatas(data))
+    .catch((err) => { console.log(err)})
+
+    return datas;
 }
 
 export default ConfigDB;
