@@ -24,9 +24,7 @@ const Home = () => {
     .then(response => response.json())
     .then(data => {
       setDatas(data)
-      console.log(data)
       sessionStorage.setItem('contexts', JSON.stringify(data.data))
-      console.log(data)
     })
     .catch((err) => { 
       console.log(err)
